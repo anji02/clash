@@ -22,7 +22,7 @@ jobs:
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/naicfeng/ClashRForAndroid/tree/master.git"
+          source_repo: "https://github.com/naicfeng/ClashRForAndroid.git"
           source_branch: "dev"
           destination_branch: "ClashRForAndroid-dev"
           github_token: ${{ secrets.PAT }}
